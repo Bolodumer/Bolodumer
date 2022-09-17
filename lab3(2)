@@ -1,0 +1,6 @@
+import sys
+sys.stdout.write('задайте чотирицифрове число ')
+bar = sys.stdin.readline()
+foo = int((int(bar[0]) + int(bar[1]) + int(bar[2]) + int(bar[3]))/4)
+sys.stdout.write('середнє арефметичне = ')
+sys.stdout.write(str(foo))
