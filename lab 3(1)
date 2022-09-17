@@ -1,0 +1,5 @@
+print('Введіть діагоналі ромба')
+d1=float(input("Введіть d1:   "))
+d2=float(input("Введіть d2:   "))
+S=d1*d2/2
+print("S=",S)
