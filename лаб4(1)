@@ -1,3 +1,5 @@
+#Варіант 20 Написати  програму  для  обчислення  значення  функції 
+
 import math
 x = float(input('Введіть Х: '))
 y = math.pow(math.e,x+math.sqrt(x))*(2.9*x-(1/math.tan(x)))/math.pow(3,0.7*x+math.sqrt(x))
