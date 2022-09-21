@@ -1,8 +1,5 @@
 #Варіант 20 Користувач задає чотирицифрове число. Програма повинна обчислити середнє геометричне його цифр
 
-import sys
-sys.stdout.write('задайте чотирицифрове число ')
-bar = sys.stdin.readline()
-foo = int((int(bar[0]) + int(bar[1]) + int(bar[2]) + int(bar[3]))/4)
-sys.stdout.write('середнє арефметичне = ')
-sys.stdout.write(str(foo))
+a=float(input("Введіть а:   "))
+S=a/4
+print("S=",S)
