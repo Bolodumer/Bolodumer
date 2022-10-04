@@ -1,0 +1,9 @@
+#1.	Протабулювати  функцію  в  діапазоні  [a;b]  з  кроком  h  за  допомогою циклу з параметром. Значення a, b, h вводяться з клавіатури
+import math
+a = float(input('Задайте a:'))
+b = float(input('Задайте b:'))
+h = float(input('Задайте h:'))
+
+for bar in ( a, b, h ) :
+    foo=math.cos(a)+math.pow(math.e,a)/math.log2(math.fabs(math.fabs(a)+0.19))
+    print(foo)
