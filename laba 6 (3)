@@ -8,5 +8,9 @@ while a>b:
     b=math.cos(a)+math.pow(math.e,a)/math.log2(math.fabs(math.fabs(a)+0.19))
     spisok.append(b)
     a=a+h
-print(spisok)
-#не зрозумів другу частину завдання
+Foo1 = 0
+while Foo1 != len(spisok):
+    print(spisok[Foo1])
+    Foo1 += 1
+print(spisok[0],spisok[1],spisok[2],spisok[-1],spisok[-2],spisok[-3])
+
