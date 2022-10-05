@@ -1,12 +1,9 @@
 #3.	Записати всі значення функції у список А. Вивести список на екран у стовпчик. Скопіювати у список В три перші і три останні елементи списку
-import math
-a = float(input('Задайте a:'))
-b = float(input('Задайте b:'))
 h = float(input('Задайте h:'))
 spisok=[]
-while a>b:
-    b=math.cos(a)+math.pow(math.e,a)/math.log2(math.fabs(math.fabs(a)+0.19))
-    spisok.append(b)
+while a<b:
+    bar=math.cos(a)+math.pow(math.e,a)/math.log2(math.fabs(math.fabs(a)+0.19))
+    spisok.append(bar)
     a=a+h
 Foo1 = 0
 while Foo1 != len(spisok):
